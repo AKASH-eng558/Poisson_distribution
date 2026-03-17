@@ -24,17 +24,20 @@ The Poisson distribution is the discrete probability distribution of the number 
 
 ![image](https://user-images.githubusercontent.com/104613195/166251988-d0c53205-6080-4f7b-ae4c-398178586637.png)
 
-# Program :
 
- ```
-# DEVELOPED BY :AKASH P
-# REGISTER NUM : 212224220006
+
+# Program :
+NAME:Gayathri D
+REG NO:212224220028
+```
 import numpy as np
 import math
 import scipy.stats
 L=[int(i) for i in input().split()]
-N=len(L); M=max(L)
-X=list();f=list()
+N=len(L)
+M=max(L) 
+X=list()
+f=list()
 for i in range (M+1):
     c = 0
     for j in range(N):
@@ -45,7 +48,7 @@ for i in range (M+1):
 sf=np.sum(f)
 p=list()
 for i in range(M+1):
-    p.append(f[i]/sf)
+    p.append(f[i]/sf) 
 mean=np.inner(X,p)
 p=list();E=list();xi=list()
 print("X P(X=x) Obs.Fr Exp.Fr xi")
@@ -66,9 +69,12 @@ else:
     print("The given data cannot be fitted in Poisson Distribution at 1% LOS")
 ```
 
-# Output : 
+ 
 
-![image](https://github.com/24900449/Poisson_distribution/blob/main/Screenshot%202026-03-16%20111026.png)
+# Output : 
+<img width="878" height="440" alt="image" src="https://github.com/user-attachments/assets/2160600e-00ca-4019-bfa0-6ee556f01afc" />
+
+
 
 # Results
 
